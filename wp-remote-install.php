@@ -238,7 +238,7 @@ switch( $step ){
 <?php
     $proceed = true;
 
-    if( downloadFromURL( 'https://wordpress.org/latest.zip' , 'wordpress.zip' ) ){
+    if( downloadFromURL( 'http://fr.wordpress.org/latest-fr_FR.zip' , 'wordpress.zip' ) ){
 ?>
   <li class="pass">Downloading Latest WordPress from Wordpress.org - OK</li>
 <?php
