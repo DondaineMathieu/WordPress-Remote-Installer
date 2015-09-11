@@ -5,7 +5,7 @@ set_time_limit( 0 );
 error_reporting( E_ALL );
 
 // GitHub Information
-define( 'GITHUB_USERNAME' , 'lucanos' );
+define( 'GITHUB_USERNAME' , 'Sinepel' );
 define( 'GITHUB_PROJECT'  , 'WordPress-Remote-Installer' );
 
 // Version Information
