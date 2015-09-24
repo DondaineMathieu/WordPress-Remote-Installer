@@ -2,7 +2,7 @@
 
 // Global Configuration
 set_time_limit( 0 );
-error_reporting( E_ALL );
+// error_reporting( E_ALL );
 
 // GitHub Information
 define( 'GITHUB_USERNAME' , 'Sinepel' );
@@ -16,7 +16,15 @@ $suggestions = array(
 
  # Can be an Array of URLs for each Plugin, or a string URL for a text file with URLs for each Plugin on a new line
   // 'plugins' => 'http://' . GITHUB_USERNAME . '.github.io/' . GITHUB_PROJECT .'/list-plugin.txt' ,
-	'plugins' => array('https://downloads.wordpress.org/plugin/wordpress-seo.2.3.5.zip','https://downloads.wordpress.org/plugin/google-analytics-for-wordpress.5.4.6.zip','https://downloads.wordpress.org/plugin/contact-form-7.4.3.zip'),
+	'plugins' => array(
+		'https://downloads.wordpress.org/plugin/wordpress-seo.2.3.5.zip',
+		'https://downloads.wordpress.org/plugin/google-analytics-for-wordpress.5.4.6.zip',
+		'https://downloads.wordpress.org/plugin/contact-form-7.4.3.zip',
+		'https://downloads.wordpress.org/plugin/duplicator.0.5.30.zip',
+		'https://downloads.wordpress.org/plugin/ajax-thumbnail-rebuild.1.12.zip',
+		'https://downloads.wordpress.org/plugin/advanced-custom-fields.4.4.3.zip',
+		'http://downloads.wordpress.org/plugin/jetpack.latest-stable.zip',		
+		),
  # Can be an Array of URLs for each Theme, or a string URL for a text file with URLs for each Theme on a new line
   // 'themes'  => 'http://' . GITHUB_USERNAME . '.github.io/' . GITHUB_PROJECT .'/list-theme.txt'
   'themes'  => array()
@@ -498,16 +506,6 @@ switch( $step ){
   </div>
 </div>
 
-<script src="//code.jquery.com/jquery.min.js"></script>
-<script src="//<?php echo GITHUB_USERNAME; ?>.github.io/<?php echo GITHUB_PROJECT; ?>/javascripts/installer.js"></script>
-<script>
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-ga('create', 'UA-238524-33');
-ga('send', 'pageview', 'step<?php echo $step; ?>');
-ga('send', 'event', 'step', '<?php echo $step; ?>');
-</script>
+
 </body>
 </html>
