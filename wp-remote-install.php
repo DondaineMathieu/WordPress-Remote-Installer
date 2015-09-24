@@ -14,11 +14,12 @@ define( 'WPRI_VERSION'    , '0.3' );
 // Suggested Plugins and Themes
 $suggestions = array(
 
-  # Can be an Array of URLs for each Plugin, or a string URL for a text file with URLs for each Plugin on a new line
-  'plugins' => 'http://' . GITHUB_USERNAME . '.github.io/' . GITHUB_PROJECT .'/list-plugin.txt' ,
-
+ # Can be an Array of URLs for each Plugin, or a string URL for a text file with URLs for each Plugin on a new line
+  // 'plugins' => 'http://' . GITHUB_USERNAME . '.github.io/' . GITHUB_PROJECT .'/list-plugin.txt' ,
+	'plugins' => array('https://downloads.wordpress.org/plugin/wordpress-seo.2.3.5.zip','https://downloads.wordpress.org/plugin/google-analytics-for-wordpress.5.4.6.zip','https://downloads.wordpress.org/plugin/contact-form-7.4.3.zip'),
  # Can be an Array of URLs for each Theme, or a string URL for a text file with URLs for each Theme on a new line
-  'themes'  => 'http://' . GITHUB_USERNAME . '.github.io/' . GITHUB_PROJECT .'/list-theme.txt'
+  // 'themes'  => 'http://' . GITHUB_USERNAME . '.github.io/' . GITHUB_PROJECT .'/list-theme.txt'
+  'themes'  => array()
 
 );
 
