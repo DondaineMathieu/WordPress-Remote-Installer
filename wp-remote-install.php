@@ -23,7 +23,9 @@ $suggestions = array(
 		'https://downloads.wordpress.org/plugin/duplicator.0.5.30.zip',
 		'https://downloads.wordpress.org/plugin/ajax-thumbnail-rebuild.1.12.zip',
 		'https://downloads.wordpress.org/plugin/advanced-custom-fields.4.4.3.zip',
-		'http://downloads.wordpress.org/plugin/jetpack.latest-stable.zip',		
+		'http://downloads.wordpress.org/plugin/jetpack.latest-stable.zip',
+		'https://downloads.wordpress.org/plugin/types.1.8.6.2.zip',
+		'https://downloads.wordpress.org/plugin/loco-translate.1.5.4.zip',
 		),
  # Can be an Array of URLs for each Theme, or a string URL for a text file with URLs for each Theme on a new line
   // 'themes'  => 'http://' . GITHUB_USERNAME . '.github.io/' . GITHUB_PROJECT .'/list-theme.txt'
