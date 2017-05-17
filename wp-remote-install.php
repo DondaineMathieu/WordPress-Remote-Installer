@@ -28,6 +28,7 @@ $suggestions = array(
 		'https://downloads.wordpress.org/plugin/loco-translate.1.5.4.zip',
 		'https://downloads.wordpress.org/plugin/wordfence.6.0.22.zip',
 		'https://downloads.wordpress.org/plugin/quick-and-easy-faqs.1.0.2.zip',
+		'https://downloads.wordpress.org/plugin/wps-hide-login.1.1.7.zip',
 		),
  # Can be an Array of URLs for each Theme, or a string URL for a text file with URLs for each Theme on a new line
   // 'themes'  => 'http://' . GITHUB_USERNAME . '.github.io/' . GITHUB_PROJECT .'/list-theme.txt'
